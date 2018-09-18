@@ -8,9 +8,6 @@ Design and implement a web service that receive input via WebSockets, process th
 stream it via REST.
 
 1. Rules:
-
-* You have up to 6 hours to complete the tasks, be careful with your time, make sure you understand the requirements correctly.
-* Try not to over-optimize. An MVP with good documentation counts more than a single polished component.
 * Think about edge cases. What if you have not enough memory, do you need to persist the state, what if you need to scale? We will discuss it afterwards!
 
 
@@ -50,7 +47,8 @@ stream it via REST.
 5. Deliverable:
 
 * You can use any language/technology/framework of your choice. But we will ask for the rationale of your decision. 
-Since we heavily using Scala - using Scala is preferable but not mandatory! 
+Since we heavily using Scala - using Scala and AKKA is preferable but not mandatory! 
+* Usage of Functional Programming libraries like Cats or ScalaZ is encouraged. 
 * The solution should include a comprehensive documentation and how to run the app. Keep it simple!
 * You can provide a github link to the solution or send us a tar ball with the sourcecode. 
 
